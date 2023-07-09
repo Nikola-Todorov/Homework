@@ -1,0 +1,87 @@
+body {
+    background-image: url("vecteezy_minimalist-dark-gradient-wave-background-simple-design-for_7718309.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.navigacija {
+    background-image: url("vecteezy_minimalist-dark-gradient-wave-background-simple-design-for_7718309.jpg");
+    background-repeat: no-repeat;
+    padding: 1.5vw;
+}
+
+.vnatresna {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes colorChange {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: purple; }
+}
+
+.vnatresna a {
+//   animation: colorChange 15s infinite;
+    color: white;
+    text-decoration: none;
+    margin: 0 5vw;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.vnatresna a:hover {
+    font-size: 1.3vw;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image {
+    width: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 16px;
+}
+.content p {
+    color: white;
+}
